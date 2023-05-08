@@ -5,6 +5,7 @@
   background: var(--bg-color);
   background-size: cover;
   background-position: center;
+  font-family: 'Poppins' sans-serif;
 }
 
 .home-content {
@@ -36,6 +37,7 @@
   -webkit-text-stroke: .7px var(--main-color);
   background-image: linear-gradient(var(--main-color), var(--main-color));
   background-repeat: no-repeat;
+  background-clip: text;
   -webkit-background-clip: text;
   background-position: -33rem 0;
 
@@ -118,7 +120,7 @@
   right: 15rem;
   width: 35%;
   height: 70%;
-  background: url('../img/home.png') no-repeat;
+  background: url('../../assets/img/home.png') no-repeat;
   background-size: contain;
   background-position: center;
   opacity: .9;
@@ -128,3 +130,4 @@
 .home-imgHover:hover {
   opacity: .6;
 }
+

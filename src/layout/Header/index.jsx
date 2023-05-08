@@ -6,11 +6,11 @@ export const Header = () => {
     <header className="header">
       <a href="#" className="logo">
         Andre.
-        <span className="animate" style={`--i:1;`}></span>
+        <span className="animate"></span>
       </a>
 
       <div className={`bx bx-menu`} id="menu-icon">
-        <span className="animate" style={`--i:2;`}></span>
+        <span className="animate"></span>
       </div>
       <Navbar />
     </header>

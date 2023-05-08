@@ -6,14 +6,14 @@ export const Skills = () => {
       <section className="skills" id="skills">
         <h2 className="heading">
           My <span>Skills</span>
-          <span className="animate scroll" style="--i:1;"></span>
+          <span className="animate scroll"></span>
         </h2>
 
         <div className="skills-row">
           <div className="skills-column">
             <h3 className="title">
-              Coding Skills{' '}
-              <span className="animate scroll" style="--i:2;"></span>
+              Coding Skills
+              <span className="animate scroll"></span>
             </h3>
 
             <div className="skills-box">
@@ -55,14 +55,14 @@ export const Skills = () => {
                 </div>
               </div>
 
-              <span className="animate scroll" style="--i:3;"></span>
+              <span className="animate scroll"></span>
             </div>
           </div>
 
           <div className="skills-column">
             <h3 className="title">
               Professional Skills
-              <span className="animate scroll" style="--i:5;"></span>
+              <span className="animate scroll"></span>
             </h3>
 
             <div className="skills-box">
@@ -104,7 +104,7 @@ export const Skills = () => {
                 </div>
               </div>
 
-              <span className="animate scroll" style="--i:6;"></span>
+              <span className="animate scroll"></span>
             </div>
           </div>
         </div>

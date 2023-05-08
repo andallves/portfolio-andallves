@@ -6,13 +6,13 @@ export const Education = () => {
       <section className="education" id="education">
         <h2 className="heading">
           My <span>Journey</span>
-          <span className="animate scroll" style="--i:1;"></span>
+          <span className="animate scroll"></span>
         </h2>
 
         <div className="education-row">
           <div className="education-column">
             <h3 className="title">
-              Education <span className="animate scroll" style="--i:2;"></span>
+              Education <span className="animate scroll"></span>
             </h3>
 
             <div className="education-box">
@@ -22,8 +22,7 @@ export const Education = () => {
                     <i className="bx bxs-calendar"></i>2018 - 2025
                   </div>
                   <h3>
-                    Degree - University{' '}
-                    <span className="animate scroll" style="--i:3;"></span>
+                    Degree - University <span className="animate scroll"></span>
                   </h3>
                   <p>
                     {' '}
@@ -70,13 +69,13 @@ export const Education = () => {
                 </div>
               </div>
 
-              <span className="animate scroll" style="--i:3;"></span>
+              <span className="animate scroll"></span>
             </div>
           </div>
 
           <div className="education-column">
             <h3 className="title">
-              Experience<span className="animate scroll" style="--i:5;"></span>
+              Experience<span className="animate scroll"></span>
             </h3>
 
             <div className="education-box">
@@ -121,7 +120,6 @@ export const Education = () => {
                   </div>
                   <h3>Web developer - Company</h3>
                   <p>
-                    {' '}
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Vitae nesciunt reiciendis nostrum optio ipsa maxime
                     dignissimos placeat ratione fugiat debitis! Pariatur aperiam
@@ -130,7 +128,7 @@ export const Education = () => {
                   </p>
                 </div>
               </div>
-              <span className="animate scroll" style="--i:6;"></span>
+              <span className="animate scroll"></span>
             </div>
           </div>
         </div>

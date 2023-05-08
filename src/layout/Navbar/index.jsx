@@ -12,7 +12,7 @@ export const Navbar = () => {
       <Link to={'/skills'}>Skills</Link>
       <Link to={'/contact'}>Contact</Link>
       <span className="active-nav"></span>
-      <span className="animate" style="--i:2;"></span>
+      <span className="animate"></span>
     </nav>
   );
 };
