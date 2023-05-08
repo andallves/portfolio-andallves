@@ -1,0 +1,52 @@
+.container_card {
+  background-color: #101010;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: .5em;
+  box-shadow: 0 0 1em var(--bg-color);
+  cursor: pointer;
+  transition: all .5s;
+
+}
+.container_card:hover {
+  box-shadow: 0 0 1em .4em rgba(0, 0, 0, 0.2);
+}
+.container_card p {
+  font-size: 3.5em;
+  margin-top: .2em;
+  text-align: center;
+}
+.container_card h2 {
+  font-family: 'Karla',sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+.orange {
+  color:#db6821;
+}
+.blue {
+  color: #2689db;
+}
+.yellow {
+  color: yellow;
+}
+.bluedark {
+  color: #1661db;
+}
+
+.purple {
+  color: #6411ca;
+}
+.green {
+  color: rgb(55, 146, 55);
+}
+.ex {
+  color: #3d3822;
+}
+.greensheat {
+  color: rgb(9, 132, 9);
+}

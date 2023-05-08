@@ -1,15 +1,16 @@
+import profilePhoto from '../../assets/img/about.png';
 import './About.css';
 
 export const About = () => {
   return (
-    <section className="about" id="about">
+    <section className="about show-animate" id="about">
       <h2 className="heading">
         About <span>Me</span>
         <span className={`animate scroll`}></span>
       </h2>
 
       <div className="about-img">
-        <img src="img/about.png" alt="" />
+        <img src={profilePhoto} alt="Profile Photo" />
         <span className="circle-spin"></span>
         <span className={`animate scroll`}></span>
       </div>
@@ -20,10 +21,12 @@ export const About = () => {
           <span className={`animate scroll`}></span>
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
-          consectetur sunt totam, quo a aliquid laborum voluptas obcaecati
-          debitis tenetur reiciendis facere accusamus amet. Culpa possimus
-          corporis dolor quaerat ipsum!
+          Quando eu tive o primeiro contato com a programação me identifiquei
+          muito, e desde então venho buscando aprender novas tecnologias e
+          praticando diariamente, dessa forma sinto-me opto para contribuir,
+          assim busco minha primeira oportunidade. Sou um pouco tímido mas gosto
+          de trabalhar em equipe e prezo por uma boa comunicação, pois acredito
+          que a troca de experiência é sempre valida.
           <span className={`animate scroll`}></span>
         </p>
 

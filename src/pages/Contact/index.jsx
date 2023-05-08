@@ -2,7 +2,7 @@ import './Contact.css';
 
 export const Contact = () => {
   return (
-    <section className="contact" id="contact">
+    <section className="contact show-animate" id="contact">
       <h2 className="heading">
         Contact <span>Me!</span>
         <span className="animate scroll"></span>

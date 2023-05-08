@@ -3,7 +3,7 @@ import './Education.css';
 export const Education = () => {
   return (
     <>
-      <section className="education" id="education">
+      <section className="education show-animate" id="education">
         <h2 className="heading">
           My <span>Journey</span>
           <span className="animate scroll"></span>
