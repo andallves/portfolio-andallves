@@ -8,14 +8,6 @@ export const Footer = () => {
 
         <span className={`animate scroll`}></span>
       </div>
-
-      <div className="footer-iconTop">
-        <a href="#">
-          <i className="bx bx-up-arrow-alt"></i>
-        </a>
-
-        <span className={`animate scroll`}></span>
-      </div>
     </footer>
   );
 };

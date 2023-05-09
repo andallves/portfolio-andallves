@@ -1,13 +1,11 @@
+import { H2 } from '../../components/H2';
 import './Education.css';
 
 export const Education = () => {
   return (
     <>
       <section className="education show-animate" id="education">
-        <h2 className="heading">
-          My <span>Journey</span>
-          <span className="animate scroll"></span>
-        </h2>
+        <H2 text={'My'} textSpan={'Journey'} />
 
         <div className="education-row">
           <div className="education-column">

@@ -1,10 +1,10 @@
 import P from 'prop-types';
-import './Card.css';
+import './styles.css';
 
 export const Card = ({ title, img, customClass }) => {
   return (
-    <div className={`container_card carousel-item active`}>
-      <div className={'d-block'}>
+    <div className={'container_card'}>
+      <div className={''}>
         <p className={customClass}>{img}</p>
         <h2>{title}</h2>
       </div>

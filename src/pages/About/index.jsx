@@ -1,19 +1,14 @@
-import profilePhoto from '../../assets/img/about.png';
-import './About.css';
+import { Button } from '../../components/Button';
+import { H2 } from '../../components/H2';
+import { ImageAbout } from '../../components/ImageAbout';
+import './styles.css';
 
 export const About = () => {
   return (
     <section className="about show-animate" id="about">
-      <h2 className="heading">
-        About <span>Me</span>
-        <span className={`animate scroll`}></span>
-      </h2>
+      <H2 text={'About'} textSpan={'Me'} />
 
-      <div className="about-img">
-        <img src={profilePhoto} alt="Profile Photo" />
-        <span className="circle-spin"></span>
-        <span className={`animate scroll`}></span>
-      </div>
+      <ImageAbout />
 
       <div className="about-content">
         <h3>
@@ -30,12 +25,7 @@ export const About = () => {
           <span className={`animate scroll`}></span>
         </p>
 
-        <div className={`btn-box btns`}>
-          <a href="#" className="btn">
-            Read More
-          </a>
-          <span className={`animate scroll`}></span>
-        </div>
+        <Button to={'#'} text={'Read More'} customClass={'center'} />
       </div>
     </section>
   );

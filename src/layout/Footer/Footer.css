@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem 9%;
@@ -13,7 +13,9 @@
 }
 
 .footer-text p {
+  font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
+  font-weight: 200;
 }
 
 .footer-iconTop a {

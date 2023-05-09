@@ -1,12 +1,10 @@
+import { H2 } from '../../components/H2';
 import './Contact.css';
 
 export const Contact = () => {
   return (
     <section className="contact show-animate" id="contact">
-      <h2 className="heading">
-        Contact <span>Me!</span>
-        <span className="animate scroll"></span>
-      </h2>
+      <H2 text={'Contact'} textSpan={'Me'} />
 
       <form action="#">
         <div className="input-box">
