@@ -101,23 +101,6 @@ export const Education = () => {
                   </div>
                   <h3>Web developer - Company</h3>
                   <p>
-                    {' '}
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Vitae nesciunt reiciendis nostrum optio ipsa maxime
-                    dignissimos placeat ratione fugiat debitis! Pariatur aperiam
-                    sed quidem tempore. Minus corrupti dignissimos voluptatibus
-                    deleniti?
-                  </p>
-                </div>
-              </div>
-
-              <div className="education-content">
-                <div className="content">
-                  <div className="year">
-                    <i className="bx bxs-calendar"></i>2018 - 2025
-                  </div>
-                  <h3>Web developer - Company</h3>
-                  <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Vitae nesciunt reiciendis nostrum optio ipsa maxime
                     dignissimos placeat ratione fugiat debitis! Pariatur aperiam
