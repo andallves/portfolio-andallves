@@ -1,5 +1,5 @@
 import { Navbar } from '../Navbar';
-import './Header.css';
+import './styles.css';
 
 export const Header = () => {
   return (
@@ -12,6 +12,7 @@ export const Header = () => {
       <div className={`bx bx-menu`} id="menu-icon">
         <span className="animate"></span>
       </div>
+
       <Navbar />
     </header>
   );

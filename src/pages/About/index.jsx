@@ -1,6 +1,6 @@
 import { Button } from '../../components/Button';
 import { H2 } from '../../components/H2';
-import { ImageAbout } from '../../components/ImageAbout';
+import { AboutImage } from '../../components/AboutImage';
 import './styles.css';
 
 export const About = () => {
@@ -8,7 +8,7 @@ export const About = () => {
     <section className="about show-animate" id="about">
       <H2 text={'About'} textSpan={'Me'} />
 
-      <ImageAbout />
+      <AboutImage />
 
       <div className="about-content">
         <h3>

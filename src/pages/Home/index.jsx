@@ -1,5 +1,5 @@
 import { Button } from '../../components/Button';
-import './Home.css';
+import './styles.css';
 
 export const Home = () => {
   return (

@@ -1,6 +1,7 @@
-import './Skills.css';
 import { H2 } from '../../components/H2';
 import { SkillsCards } from '../../components/SkillsCards';
+
+import './styles.css';
 
 export const Skills = () => {
   return (

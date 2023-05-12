@@ -1,5 +1,6 @@
 import { H2 } from '../../components/H2';
-import './Contact.css';
+import { InputField } from '../../components/InputFiled';
+import './styles.css';
 
 export const Contact = () => {
   return (
@@ -8,28 +9,17 @@ export const Contact = () => {
 
       <form action="#">
         <div className="input-box">
-          <div className="input-field">
-            <input type="text" placeholder="Full Name" required />
-            <span className="focus"></span>
-          </div>
+          <InputField type={'text'} placeholder={'Full Name'} />
 
-          <div className="input-field">
-            <input type="email" placeholder="Email Adress" required />
-            <span className="focus"></span>
-          </div>
+          <InputField type={'email'} placeholder={'Email Adress'} />
 
           <span className="animate scroll"></span>
         </div>
 
         <div className="input-box">
-          <div className="input-field">
-            <input type="number" placeholder="Mobile Number" required />
-            <span className="focus"></span>
-          </div>
-          <div className="input-field">
-            <input type="email" placeholder="Email Subject" required />
-            <span className="focus"></span>
-          </div>
+          <InputField type={'number'} placeholder={'Mobile Number'} />
+
+          <InputField type={'email'} placeholder={'Email Subject'} />
 
           <span className="animate scroll"></span>
         </div>
