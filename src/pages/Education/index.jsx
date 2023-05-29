@@ -15,22 +15,27 @@ export const Education = () => {
 
           <div className="education-box">
             <EducationContent
-              titleH3={'Degree - University'}
+              titleH3={'Ciência da Computação - IFCE'}
               paragraph={
                 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nesciunt reiciendis nostrum optio ipsa maxime dignissimos placeat ratione fugiat debitis! Pariatur aperia sed quidem tempore. Minus corrupti dignissimos voluptatibu deleniti?'
               }
+              data={'2018 - Atual'}
             />
+
             <EducationContent
-              titleH3={'Degree - University'}
+              titleH3={'JavaScript & TypeScript - Udemy'}
               paragraph={
                 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nesciunt reiciendis nostrum optio ipsa maxime dignissimos placeat ratione fugiat debitis! Pariatur aperia sed quidem tempore. Minus corrupti dignissimos voluptatibu deleniti?'
               }
+              data={'2022 - 2023'}
             />
+
             <EducationContent
-              titleH3={'Degree - University'}
+              titleH3={'React.JS & Next.JS - Udemy'}
               paragraph={
                 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nesciunt reiciendis nostrum optio ipsa maxime dignissimos placeat ratione fugiat debitis! Pariatur aperia sed quidem tempore. Minus corrupti dignissimos voluptatibu deleniti?'
               }
+              data={'2023 - Atual'}
             />
 
             <span className="animate scroll"></span>
@@ -43,25 +48,13 @@ export const Education = () => {
           </h3>
 
           <EducationContent
-            titleH3={'Degree - University'}
+            titleH3={'Controle de Orçamento - próprio'}
             paragraph={
               'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nesciunt reiciendis nostrum optio ipsa maxime dignissimos placeat ratione fugiat debitis! Pariatur aperia sed quidem tempore. Minus corrupti dignissimos voluptatibu deleniti?'
             }
+            data={'Em construção...'}
           />
 
-          <EducationContent
-            titleH3={'Degree - University'}
-            paragraph={
-              'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nesciunt reiciendis nostrum optio ipsa maxime dignissimos placeat ratione fugiat debitis! Pariatur aperia sed quidem tempore. Minus corrupti dignissimos voluptatibu deleniti?'
-            }
-          />
-
-          <EducationContent
-            titleH3={'Degree - University'}
-            paragraph={
-              'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nesciunt reiciendis nostrum optio ipsa maxime dignissimos placeat ratione fugiat debitis! Pariatur aperia sed quidem tempore. Minus corrupti dignissimos voluptatibu deleniti?'
-            }
-          />
           <span className="animate scroll"></span>
         </div>
       </div>
